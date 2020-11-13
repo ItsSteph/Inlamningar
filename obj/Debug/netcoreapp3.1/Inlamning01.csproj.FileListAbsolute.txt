@@ -1,0 +1,13 @@
+/home/steph/RiderProjects/Inlamning01/Inlamning01/bin/Debug/netcoreapp3.1/Inlamning01
+/home/steph/RiderProjects/Inlamning01/Inlamning01/bin/Debug/netcoreapp3.1/Inlamning01.deps.json
+/home/steph/RiderProjects/Inlamning01/Inlamning01/bin/Debug/netcoreapp3.1/Inlamning01.runtimeconfig.json
+/home/steph/RiderProjects/Inlamning01/Inlamning01/bin/Debug/netcoreapp3.1/Inlamning01.runtimeconfig.dev.json
+/home/steph/RiderProjects/Inlamning01/Inlamning01/bin/Debug/netcoreapp3.1/Inlamning01.dll
+/home/steph/RiderProjects/Inlamning01/Inlamning01/bin/Debug/netcoreapp3.1/Inlamning01.pdb
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.csprojAssemblyReference.cache
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.AssemblyInfoInputs.cache
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.AssemblyInfo.cs
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.csproj.CoreCompileInputs.cache
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.dll
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.pdb
+/home/steph/RiderProjects/Inlamning01/Inlamning01/obj/Debug/netcoreapp3.1/Inlamning01.genruntimeconfig.cache
