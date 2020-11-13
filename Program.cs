@@ -70,22 +70,26 @@ namespace Inlamning01
                 {
                     int result = sFirstNumber - sSecondNumber + sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
                 else if (SecondOp == "-")
                 {
                     int result = sFirstNumber - sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "*")
                 {
                     int result = sFirstNumber - (sSecondNumber * sThirdNumber);
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "/")
                 {
                     int result = sFirstNumber - (sSecondNumber / sThirdNumber);
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
             }
@@ -102,22 +106,26 @@ namespace Inlamning01
                 {
                     int result = sFirstNumber * sSecondNumber + sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
                 else if (SecondOp == "+")
                 {
                     int result = sFirstNumber * sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "*")
                 {
                     int result = sFirstNumber * sSecondNumber * sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "/")
                 {
                     int result = sFirstNumber * sSecondNumber / sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
             }
@@ -139,22 +147,26 @@ namespace Inlamning01
                 {
                     int result = sFirstNumber / sSecondNumber + sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
                 else if (SecondOp == "+")
                 {
                     int result = sFirstNumber / sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "*")
                 {
                     int result = sFirstNumber / sSecondNumber * sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "/")
                 {
                     int result = sFirstNumber / sSecondNumber / sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
             }
