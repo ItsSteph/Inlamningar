@@ -12,31 +12,17 @@ namespace Inlamning01
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Please enter the first operator");
-            string FirstOp = Console.ReadLine();
             Console.WriteLine("Please enter the first number");
             string FirstNumber = Console.ReadLine();
             int sFirstNumber = Convert.ToInt32(FirstNumber);
+            Console.WriteLine("Please enter the first operator");
+            string FirstOp = Console.ReadLine();
             Console.WriteLine("Please enter the second number");
             string SecondNumber = Console.ReadLine();
             int sSecondNumber = Convert.ToInt32(SecondNumber);
 
             while (FirstOp == "+")
             {
-
-                Console.WriteLine("Do you want to continue?");
-                string input = Console.ReadLine();
-
-                if (input == "No" || input == "no")
-                {
-                    Console.WriteLine("Ok");
-
-                    int result = sFirstNumber + sSecondNumber;
-                    Console.WriteLine("Result: " + result);
-                    Environment.Exit(0);
-
-                }
-
                 Console.WriteLine("Please enter the second operator");
                 string SecondOp = Console.ReadLine();
                 Console.WriteLine("Please enter the third number");
@@ -47,43 +33,33 @@ namespace Inlamning01
                 {
                     int result = sFirstNumber + sSecondNumber + sThirdNumber;
                     Console.WriteLine("Result: " + result);
-                    //
+                    Environment.Exit(0);
 
                 }
                 else if (SecondOp == "-")
                 {
                     int result = sFirstNumber + sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "*")
                 {
-                    int result = sFirstNumber + (sSecondNumber * sThirdNumber);
+                    int result = sFirstNumber + sSecondNumber * sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
                 }
                 else if (SecondOp == "/")
                 {
-                    int result = sFirstNumber + (sSecondNumber / sThirdNumber);
+                    int result = sFirstNumber + sSecondNumber / sThirdNumber;
                     Console.WriteLine("Result: " + result);
+                    Environment.Exit(0);
 
                 }
 
             }
             while (FirstOp == "-")
             {
-
-                Console.WriteLine("Do you want to continue?");
-                string input = Console.ReadLine();
-
-                if (input == "No" || input == "no")
-                {
-                    Console.WriteLine("Ok");
-
-                    int result = sFirstNumber - sSecondNumber;
-                    Console.WriteLine("Result: " + result);
-                    Environment.Exit(0);
-
-                }
-
+                
                 Console.WriteLine("Please enter the second operator");
                 string SecondOp = Console.ReadLine();
                 Console.WriteLine("Please enter the third number");
@@ -96,7 +72,7 @@ namespace Inlamning01
                     Console.WriteLine("Result: " + result);
 
                 }
-                else if (SecondOp == "+")
+                else if (SecondOp == "-")
                 {
                     int result = sFirstNumber - sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
@@ -115,19 +91,6 @@ namespace Inlamning01
             }
             while (FirstOp == "*")
             {
-
-                Console.WriteLine("Do you want to continue?");
-                string input = Console.ReadLine();
-
-                if (input == "No" || input == "no")
-                {
-                    Console.WriteLine("Ok");
-
-                    int result = sFirstNumber * sSecondNumber;
-                    Console.WriteLine("Result: " + result);
-                    Environment.Exit(0);
-
-                }
 
                 Console.WriteLine("Please enter the second operator");
                 string SecondOp = Console.ReadLine();
@@ -164,19 +127,6 @@ namespace Inlamning01
                 if (sSecondNumber > sFirstNumber)
                 {
                     Console.WriteLine("Calculation not possible. Please try again....");
-                }
-
-                Console.WriteLine("Do you want to continue?");
-                string input = Console.ReadLine();
-
-                if (input == "No" || input == "no")
-                {
-                    Console.WriteLine("Ok");
-
-                    int result = sFirstNumber / sSecondNumber;
-                    Console.WriteLine("Result: " + result);
-                    Environment.Exit(0);
-
                 }
 
                 Console.WriteLine("Please enter the second operator");
