@@ -109,7 +109,7 @@ namespace Inlamning01
                     Environment.Exit(0);
 
                 }
-                else if (SecondOp == "+")
+                else if (SecondOp == "-")
                 {
                     int result = sFirstNumber * sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
@@ -150,7 +150,7 @@ namespace Inlamning01
                     Environment.Exit(0);
 
                 }
-                else if (SecondOp == "+")
+                else if (SecondOp == "-")
                 {
                     int result = sFirstNumber / sSecondNumber - sThirdNumber;
                     Console.WriteLine("Result: " + result);
